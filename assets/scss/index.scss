@@ -1,0 +1,136 @@
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    height: 100%;
+    background-color: #eee;
+}
+.navbar{
+    background-color: #fff!important;
+    .container-fluid{
+        width: 90%;
+        margin: auto;
+        display: flex;
+        justify-content: flex-start;
+        a.navbar-brand{
+            font-size: 15px;
+            padding-bottom: 0px;
+        }
+        img{
+            margin-right: 10px;
+        }
+    }
+}
+
+.rochas-section{
+    padding-top: 100px;
+    padding-bottom: 100px ;
+    .row{
+        div{
+            img{
+                width: 70%;
+                float: right;
+            }
+           
+            .mb-3.row{
+                label{
+                    padding-bottom: 0px;
+                    text-align: right;
+                    padding-left: 0px;
+                    font-size: 12px;
+
+                }
+                .form-select-sm {
+                    font-size: 12px;
+                    border: 0px;
+
+                }
+                .form-check-input {
+                    border: 0px;
+
+                }
+                div.col-sm-8{
+                    padding: 0px;
+                    input.form-control{
+                        padding: 3px 5px;
+                        line-height: 1.4;
+                        border: 0px;
+                        background-color: #fff;
+                        font-size: 12px;
+
+                    }
+                    .file-button{
+                            border: 0px;
+                         border-radius: 3px;
+                        font-size: 12px;
+                        padding: 4px 25px;
+                        background: transparent!important;
+                        
+                    }
+                    input#file-upload-button{
+                        border: 0px;
+                        background: lightgreen!important;
+                        border-radius: 20px;
+                        font-size: 12px;
+                        padding: 4px 25px;
+                    }
+                    .pvc-box{
+                        width: 200px;
+                        height: 150px;
+                        background: #fff;
+                        border-radius: 5px;
+                        margin-bottom: 5px;
+                    }
+                    #image-preview{
+                        max-width: 100%;
+                         max-height: 100%;
+                         object-fit: cover;
+                         display: none;
+                     }
+                    button{
+                        border: 0px;
+                        background: lightgreen;
+                        border-radius: 20px;
+                        font-size: 12px;
+                        padding: 4px 25px;
+                    }
+                    button:hover{
+                        background: green;
+                        transition: 0.5s;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+@media screen and (max-width: 800px){
+    .rochas-section{
+        .row{
+            div.col-6{
+                width: 90%;
+                text-align: center;
+                margin: auto;
+                margin-bottom: 60px;
+                img{
+                    float: unset;
+                    margin: auto;
+                }
+                .mb-3.row {
+                    label{
+                        text-align: left;
+                    }
+                    button{
+                        float: left;
+                    }
+                    div.col-sm-8{
+                        text-align: left;
+                    }
+                }
+            }
+        }
+    }
+}
