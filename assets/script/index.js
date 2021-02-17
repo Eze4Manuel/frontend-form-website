@@ -34,7 +34,7 @@ $(document).ready( ()=>{
       reader.onload = function(e) {
         $('#image-preview').attr('src', e.target.result);
         $('#image-preview').css({'display':'block'});
-
+        console.log(e.target.result);
       }
       
       reader.readAsDataURL(input.files[0]); // convert to base64 string
