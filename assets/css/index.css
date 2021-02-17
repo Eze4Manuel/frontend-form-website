@@ -85,6 +85,8 @@ body {
   max-height: 100%;
   object-fit: cover;
   display: none;
+  text-align: center;
+  margin: auto;
 }
 .rochas-section .row div .mb-3.row div.col-sm-8 button {
   border: 0px;
@@ -118,4 +120,27 @@ body {
   .rochas-section .row div.col-md-6 .mb-3.row div.col-sm-8 {
     text-align: left;
   }
+}
+.confirm-section {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.confirm-section .row div {
+  margin-bottom: 30px;
+  text-align: center;
+}
+.confirm-section .row div img {
+  width: 40%;
+  height: 100%;
+  margin: auto;
+  margin-bottom: 40px;
+}
+.confirm-section .row div h3 {
+  font-family: "Poppins", sans-serif;
+  color: green;
+  text-align: center;
+}
+.confirm-section .row div a {
+  text-align: center;
+  background: green;
 }

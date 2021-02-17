@@ -91,6 +91,9 @@ body{
                          max-height: 100%;
                          object-fit: cover;
                          display: none;
+
+                         text-align: center;
+                         margin: auto;
                      }
                     button{
                         border: 0px;
@@ -136,6 +139,37 @@ body{
                         text-align: left;
                     }
                 }
+            }
+        }
+    }
+}
+
+
+
+/// Confirmation Page
+
+.confirm-section{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    .row{
+        div{
+            margin-bottom: 30px;
+            text-align: center;
+
+            img{
+                width: 40%;
+                height: 100%;
+                margin: auto;
+                margin-bottom: 40px;
+             }
+            h3{
+                font-family: 'Poppins', sans-serif;
+                color: green;
+                text-align: center;
+            }
+            a{
+                text-align: center;
+                background: green;
             }
         }
     }
