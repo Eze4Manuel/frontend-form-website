@@ -27,13 +27,17 @@ body{
     padding-top: 100px;
     padding-bottom: 100px ;
     .row{
+         
         div{
+            text-align: center;
             img{
                 width: 70%;
                 float: right;
+                margin-right: 10%;
             }
            
             .mb-3.row{
+
                 label{
                     padding-bottom: 0px;
                     text-align: right;
@@ -107,19 +111,21 @@ body{
 
 
 
-@media screen and (max-width: 800px){
+@media screen and (max-width: 900px){
     .rochas-section{
         .row{
-            div.col-6{
+             div{
+                 img{
+                    float: unset;
+                    margin: auto;
+                }
+            }
+            div.col-md-6{
                 width: 90%;
                 text-align: center;
                 margin: auto;
                 margin-bottom: 60px;
-                img{
-                    float: unset;
-                    margin: auto;
-                }
-                .mb-3.row {
+                 .mb-3.row {
                     label{
                         text-align: left;
                     }

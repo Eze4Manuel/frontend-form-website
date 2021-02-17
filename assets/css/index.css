@@ -28,9 +28,13 @@ body {
   padding-top: 100px;
   padding-bottom: 100px;
 }
+.rochas-section .row div {
+  text-align: center;
+}
 .rochas-section .row div img {
   width: 70%;
   float: right;
+  margin-right: 10%;
 }
 .rochas-section .row div .mb-3.row label {
   padding-bottom: 0px;
@@ -94,24 +98,24 @@ body {
   transition: 0.5s;
 }
 
-@media screen and (max-width: 800px) {
-  .rochas-section .row div.col-6 {
+@media screen and (max-width: 900px) {
+  .rochas-section .row div img {
+    float: unset;
+    margin: auto;
+  }
+  .rochas-section .row div.col-md-6 {
     width: 90%;
     text-align: center;
     margin: auto;
     margin-bottom: 60px;
   }
-  .rochas-section .row div.col-6 img {
-    float: unset;
-    margin: auto;
-  }
-  .rochas-section .row div.col-6 .mb-3.row label {
+  .rochas-section .row div.col-md-6 .mb-3.row label {
     text-align: left;
   }
-  .rochas-section .row div.col-6 .mb-3.row button {
+  .rochas-section .row div.col-md-6 .mb-3.row button {
     float: left;
   }
-  .rochas-section .row div.col-6 .mb-3.row div.col-sm-8 {
+  .rochas-section .row div.col-md-6 .mb-3.row div.col-sm-8 {
     text-align: left;
   }
 }
