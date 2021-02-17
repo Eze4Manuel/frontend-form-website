@@ -4,7 +4,7 @@
 }
 body{
     height: 100%;
-    background-color: #eee;
+    background-color: #fff;
 }
 .navbar{
     background-color: #fff!important;
@@ -29,7 +29,6 @@ body{
     .row{
          
         div{
-            text-align: center;
             img{
                 width: 70%;
                 float: right;
@@ -40,32 +39,31 @@ body{
 
                 label{
                     padding-bottom: 0px;
-                    text-align: right;
                     padding-left: 0px;
                     font-size: 12px;
 
                 }
                 .form-select-sm {
                     font-size: 12px;
-                    border: 0px;
+                    border: 0.5px solid lightgray;
 
                 }
                 .form-check-input {
-                    border: 0px;
+                    border: 0.5px solid lightgray;
 
                 }
                 div.col-sm-8{
                     padding: 0px;
                     input.form-control{
                         padding: 3px 5px;
-                        line-height: 1.4;
-                        border: 0px;
+                        line-height: 1.8;
+                        border: 0.5px solid lightgray;
                         background-color: #fff;
                         font-size: 12px;
 
                     }
                     .file-button{
-                            border: 0px;
+                        border: 0.5px solid lightgray;
                          border-radius: 3px;
                         font-size: 12px;
                         padding: 4px 25px;
@@ -73,7 +71,7 @@ body{
                         
                     }
                     input#file-upload-button{
-                        border: 0px;
+                        border: 0.5px solid lightgray;
                         background: lightgreen!important;
                         border-radius: 20px;
                         font-size: 12px;
@@ -85,6 +83,8 @@ body{
                         background: #fff;
                         border-radius: 5px;
                         margin-bottom: 5px;
+                        border: 0.5px solid lightgray;
+
                     }
                     #image-preview{
                         max-width: 100%;

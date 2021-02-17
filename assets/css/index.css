@@ -4,7 +4,7 @@
 
 body {
   height: 100%;
-  background-color: #eee;
+  background-color: #fff;
 }
 
 .navbar {
@@ -28,9 +28,6 @@ body {
   padding-top: 100px;
   padding-bottom: 100px;
 }
-.rochas-section .row div {
-  text-align: center;
-}
 .rochas-section .row div img {
   width: 70%;
   float: right;
@@ -38,36 +35,35 @@ body {
 }
 .rochas-section .row div .mb-3.row label {
   padding-bottom: 0px;
-  text-align: right;
   padding-left: 0px;
   font-size: 12px;
 }
 .rochas-section .row div .mb-3.row .form-select-sm {
   font-size: 12px;
-  border: 0px;
+  border: 0.5px solid lightgray;
 }
 .rochas-section .row div .mb-3.row .form-check-input {
-  border: 0px;
+  border: 0.5px solid lightgray;
 }
 .rochas-section .row div .mb-3.row div.col-sm-8 {
   padding: 0px;
 }
 .rochas-section .row div .mb-3.row div.col-sm-8 input.form-control {
   padding: 3px 5px;
-  line-height: 1.4;
-  border: 0px;
+  line-height: 1.8;
+  border: 0.5px solid lightgray;
   background-color: #fff;
   font-size: 12px;
 }
 .rochas-section .row div .mb-3.row div.col-sm-8 .file-button {
-  border: 0px;
+  border: 0.5px solid lightgray;
   border-radius: 3px;
   font-size: 12px;
   padding: 4px 25px;
   background: transparent !important;
 }
 .rochas-section .row div .mb-3.row div.col-sm-8 input#file-upload-button {
-  border: 0px;
+  border: 0.5px solid lightgray;
   background: lightgreen !important;
   border-radius: 20px;
   font-size: 12px;
@@ -79,6 +75,7 @@ body {
   background: #fff;
   border-radius: 5px;
   margin-bottom: 5px;
+  border: 0.5px solid lightgray;
 }
 .rochas-section .row div .mb-3.row div.col-sm-8 #image-preview {
   max-width: 100%;
