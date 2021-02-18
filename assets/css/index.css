@@ -9,61 +9,88 @@ body {
 
 .navbar {
   background-color: #fff !important;
+  padding-top: 30px;
 }
 .navbar .container-fluid {
-  width: 90%;
+  width: 80%;
   margin: auto;
   display: flex;
   justify-content: flex-start;
 }
 .navbar .container-fluid a.navbar-brand {
-  font-size: 15px;
+  font-size: 35px;
   padding-bottom: 0px;
+  font-weight: bold;
 }
 .navbar .container-fluid img {
   margin-right: 10px;
+  width: 100px;
 }
 
 .rochas-section {
-  padding-top: 100px;
+  padding-top: 20px;
   padding-bottom: 100px;
 }
 .rochas-section .row div img {
-  width: 70%;
+  width: 80%;
   float: right;
-  margin-right: 10%;
+  margin-right: 5%;
+  margin-top: 30px;
 }
 .rochas-section .row div .mb-3.row label {
   padding-bottom: 0px;
   padding-left: 0px;
   font-size: 12px;
+  font-family: "Poppins", sans-serif;
+  color: #000;
+}
+.rochas-section .row div .mb-3.row .label_p {
+  margin: 0px;
+  text-align: left;
+  padding-left: 0px;
+  font-size: 13px;
+  font-family: "Poppins", sans-serif;
+  color: #000;
+  font-weight: 400;
 }
 .rochas-section .row div .mb-3.row .form-select-sm {
   font-size: 12px;
-  border: 0.5px solid lightgray;
+  border: 0.5px solid grey;
+  border-radius: 0px;
+  font-weight: 400;
+  line-height: 2.4;
 }
 .rochas-section .row div .mb-3.row .form-check-input {
-  border: 0.5px solid lightgray;
+  border: 0.5px solid grey;
+  border-radius: 0px;
+  font-family: "Poppins", sans-serif;
+  color: #000;
+  font-weight: 400;
+  line-height: 2.4;
 }
 .rochas-section .row div .mb-3.row div.col-sm-8 {
   padding: 0px;
 }
 .rochas-section .row div .mb-3.row div.col-sm-8 input.form-control {
   padding: 3px 5px;
-  line-height: 1.8;
-  border: 0.5px solid lightgray;
+  line-height: 2.4;
+  border: 1px solid grey;
   background-color: #fff;
-  font-size: 12px;
+  font-size: 15px;
+  border-radius: 0px;
+  font-family: "Poppins", sans-serif;
+  color: #000;
 }
 .rochas-section .row div .mb-3.row div.col-sm-8 .file-button {
-  border: 0.5px solid lightgray;
+  border: 0.5px solid grey;
   border-radius: 3px;
-  font-size: 12px;
+  font-size: 15px;
   padding: 4px 25px;
   background: transparent !important;
+  font-family: "Poppins", sans-serif;
 }
 .rochas-section .row div .mb-3.row div.col-sm-8 input#file-upload-button {
-  border: 0.5px solid lightgray;
+  border: 0.5px solid grey;
   background: lightgreen !important;
   border-radius: 20px;
   font-size: 12px;
@@ -73,9 +100,9 @@ body {
   width: 200px;
   height: 150px;
   background: #fff;
-  border-radius: 5px;
+  border-radius: 0px;
   margin-bottom: 5px;
-  border: 0.5px solid lightgray;
+  border: 0.5px solid grey;
 }
 .rochas-section .row div .mb-3.row div.col-sm-8 #image-preview {
   max-width: 100%;
@@ -87,17 +114,30 @@ body {
 }
 .rochas-section .row div .mb-3.row div.col-sm-8 button {
   border: 0px;
-  background: lightgreen;
+  background: green;
   border-radius: 20px;
   font-size: 12px;
-  padding: 4px 25px;
+  padding: 10px 30px;
+  float: left;
+  margin-top: 50px;
 }
 .rochas-section .row div .mb-3.row div.col-sm-8 button:hover {
-  background: green;
+  background: lightgreen;
   transition: 0.5s;
 }
 
 @media screen and (max-width: 900px) {
+  .navbar .container-fluid {
+    width: 100%;
+  }
+  .navbar .container-fluid img {
+    width: 70px;
+  }
+
+  .navbar .container-fluid a.navbar-brand {
+    font-size: 20px;
+  }
+
   .rochas-section .row {
     width: 100%;
     margin: auto;
