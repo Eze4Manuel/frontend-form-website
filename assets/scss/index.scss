@@ -117,10 +117,16 @@ body{
 @media screen and (max-width: 900px){
     .rochas-section{
         .row{
+            width: 100%;
+            margin: auto;
+            div.right{
+                margin-top: 40px;
+            }
              div{
                  img{
                     float: unset;
                     margin: auto;
+                    width: 100%;
                 }
             }
             div.col-md-6{

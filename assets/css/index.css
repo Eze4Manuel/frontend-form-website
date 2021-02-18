@@ -98,9 +98,17 @@ body {
 }
 
 @media screen and (max-width: 900px) {
+  .rochas-section .row {
+    width: 100%;
+    margin: auto;
+  }
+  .rochas-section .row div.right {
+    margin-top: 40px;
+  }
   .rochas-section .row div img {
     float: unset;
     margin: auto;
+    width: 100%;
   }
   .rochas-section .row div.col-md-6 {
     width: 90%;
